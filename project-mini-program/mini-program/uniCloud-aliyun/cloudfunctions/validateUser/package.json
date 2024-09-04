@@ -1,0 +1,7 @@
+{
+  "name": "validateUser",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

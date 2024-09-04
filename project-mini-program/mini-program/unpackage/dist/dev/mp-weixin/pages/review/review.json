@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "Ez4Canteen",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "list-cell": "/components/list-cell/list-cell",
+    "rate-form-item": "/pages/review/rate-form-item/index"
+  }
+}

@@ -1,0 +1,275 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/error/404",
+			"style": {
+				"navigationBarTitleText": "Not Found"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		// {
+		// 	"path": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+		// 	"style": {
+		// 		"topWindow": false,
+		// 		"leftWindow": false,
+		// 		"navigationBarTitleText": "免密登录页"
+		// 	}
+		// },
+		{
+			"path": "uni_modules/uni-id-pages/pages/register/register",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/register/register-admin",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"navigationBarTitleText": "创建超级管理员"
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+
+		{
+			"path": "uni_modules/uni-id-pages/pages/common/webview/webview",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "uni_modules/uni-id-pages/pages/userinfo/set-pwd/set-pwd",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "设置密码"
+			}
+		}
+	,
+{
+	"path" : "pages/about/readme/readme",
+	"style" : 
+	{
+		"navigationBarTitleText" : ""
+	}
+},
+{
+	"path" : "pages/about/about_ez4canteen/about_ez4canteen",
+	"style" : 
+	{
+		"navigationBarTitleText" : ""
+	}
+},
+{
+	"path" : "pages/business_conditions/expenditures/expenditures",
+	"style" : 
+	{
+		"navigationBarTitleText" : ""
+	}
+},
+{
+	"path" : "pages/business_conditions/turnover/turnover",
+	"style" : 
+	{
+		"navigationBarTitleText" : ""
+	}
+},
+{
+	"path" : "pages/business_conditions/orders_list/orders_list",
+	"style" : 
+	{
+		"navigationBarTitleText" : ""
+	}
+},
+{
+	"path" : "pages/export/export",
+	"style" : 
+	{
+		"navigationBarTitleText" : ""
+	}
+}
+],
+	"subPackages": [{
+			"root": "pages/system",
+			"pages": [{
+					"path": "menu/list",
+					"style": {
+						"navigationBarTitleText": "菜单管理"
+					}
+				},
+				{
+					"path": "menu/add",
+					"style": {
+						"navigationBarTitleText": "新增菜单",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "menu/edit",
+					"style": {
+						"navigationBarTitleText": "修改菜单",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "permission/list",
+					"style": {
+						"navigationBarTitleText": "权限管理"
+					}
+				},
+				{
+					"path": "permission/add",
+					"style": {
+						"navigationBarTitleText": "新增权限",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "permission/edit",
+					"style": {
+						"navigationBarTitleText": "修改权限",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "role/add",
+					"style": {
+						"navigationBarTitleText": "新增角色",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "role/edit",
+					"style": {
+						"navigationBarTitleText": "修改角色",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "role/list",
+					"style": {
+						"navigationBarTitleText": "角色管理"
+					}
+				},
+				{
+					"path": "user/add",
+					"style": {
+						"navigationBarTitleText": "新增用户",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "user/edit",
+					"style": {
+						"navigationBarTitleText": "修改用户",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "user/list",
+					"style": {
+						"navigationBarTitleText": "用户管理"
+					}
+				},
+				{
+					"path": "tag/add",
+					"style": {
+						"navigationBarTitleText": "新增标签"
+					}
+				},
+				{
+					"path": "tag/edit",
+					"style": {
+						"navigationBarTitleText": "修改标签"
+					}
+				},
+				{
+					"path": "tag/list",
+					"style": {
+						"navigationBarTitleText": "标签管理"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/goodsManagement",
+			"pages": [
+				{
+					"path": "goodsSetting/goodsSetting",
+					"style": {
+						"navigationBarTitleText": "商品管理",
+						"enablePullDownRefresh": false
+					}
+					
+				},
+				{
+					"path" : "category_edit/category_edit",
+					"style" : 
+					{
+						"navigationBarTitleText": "类别管理",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+			
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "管理系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"h5": {
+			"titleNView": false
+		}
+	},
+	"topWindow": {
+		"path": "windows/topWindow",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 0
+		}
+	},
+	"leftWindow": {
+		"path": "windows/leftWindow",
+		"style": {
+			"width": "240px"
+		}
+	},
+	"uniIdRouter": {
+		"loginPage": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+		"needLogin": [
+			"^((?!uni-id-pages\/pages\/login|register|retrieve).)*$"
+		],
+		"resToLogin": true
+	}
+}

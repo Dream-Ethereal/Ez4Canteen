@@ -1,0 +1,21 @@
+{
+    "version" : "1.0",
+    "configurations" : [
+        {
+        	"default" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"h5" : 
+        	{
+        		"launchtype" : "remote"
+        	},
+        	"mp-weixin" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"provider" : "aliyun",
+        	"type" : "uniCloud"
+        }
+    ]
+}
